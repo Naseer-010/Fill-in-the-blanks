@@ -44,7 +44,7 @@ print("The paragraph is about Harry Potter try to answer it considering this")
 
 print("Original Paragraph:")
 print(paragraph1)
-print("Total 5 blanks")
+print("Total 6 blanks")
 
 words = input("Enter words to fill in blanks (comma-separated): ").strip().split(',')
 filled_paragraph = fill_blanks(paragraph1, words)
